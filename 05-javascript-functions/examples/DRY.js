@@ -10,3 +10,13 @@
 // awe
 //
 // remember this? process.argv
+
+var arg1 = process.argv[2].toLowerCase().slice(0,3)
+var arg2 = process.argv[3].toLowerCase().slice(0,3)
+var arg3 = process.argv[4].toLowerCase().slice(0,3)
+
+console.log(process.argv)
+console.log(arg1)
+console.log(arg2)
+console.log(arg3)
+
