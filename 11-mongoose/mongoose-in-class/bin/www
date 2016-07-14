@@ -29,7 +29,10 @@ server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
 /**
  * Normalize a port into a number, string, or false.
  */
@@ -83,7 +86,11 @@ function onError(error) {
  */
 
 function onListening() {
+<<<<<<< HEAD
   console.log('server running');
+=======
+  console.log("server running")
+>>>>>>> upstream/master
   var addr = server.address();
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
